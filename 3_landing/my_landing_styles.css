@@ -1,9 +1,31 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
-* {
+
+/** {
   box-sizing: border-box;
 
   border: thin red solid;
-}
+}*/
+
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+.siteheader {
+  height: 200px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.sectionheader {
+  text-align:left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  background: blue;
+  font-size: 14px;
+}

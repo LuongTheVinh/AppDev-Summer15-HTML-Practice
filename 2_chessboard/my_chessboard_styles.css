@@ -18,3 +18,33 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body {
+  background-image: url('grey.png');
+}
+
+.board {
+  border: thick solid blue;
+  margin: 30px auto;
+}
+
+.square {
+  background: green;
+  color: orange;
+  font-size: 36px;
+  height: 72px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333;
+  width: 72px;
+}
+
+.dark_square {
+  background: blue; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #009999 0%, #1d7373 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #009999 0%,#1d7373 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#1d7373',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
